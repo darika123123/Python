@@ -14,7 +14,7 @@ def provider_enter(arg):
             validate = True
             while True:
                 menu = str(input(
-                    'Greetings, dear Deliveryman! Please type the menu number to work with the program, if finished, then type 5: '))
+                    'Greetings, dear Provider! Please type the menu number to work with the program, if finished, then type 5: '))
                 if menu == '1':
                     read_file('./data/need_material.txt')
                 elif menu == '2':

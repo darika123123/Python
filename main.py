@@ -1,6 +1,7 @@
 from utils.delivery import *
 from utils.provider import *
 from utils.saleman import *
+from utils.register import *
 
 account = str(
     input('Please type your type of account: >>> '))
@@ -13,6 +14,8 @@ def typeOfAccount(arg):
         delivery_enter(arg)
     elif arg.lower() == 'provider':
         provider_enter(arg)
+    elif arg.lower() == 'register':
+        register(arg)
     else:
         return print("Sorry,I didn't find this type of account, type one more time.")
 
